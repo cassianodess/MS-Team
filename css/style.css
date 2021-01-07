@@ -96,7 +96,8 @@ img{
 
 .lateral iframe{
     width: 100%;
-    padding: 5%;
+    padding: 2%;
+    margin: 2%;
 
 }
 
@@ -132,11 +133,3 @@ img{
     text-align: center;
 }
 
-/*Tablets*/
-@media screen and (min-width: 960px){
-
-    .lateral{
-    width: 40%;
-}
-    
-}
