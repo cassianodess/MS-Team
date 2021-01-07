@@ -59,13 +59,14 @@ img{
 
 .principal img{
     height: auto;
-    border-radius: 4px;
+    border-radius: 5px;
     margin: 5px;
 }
 
 .principal p{
     width: 100%;
     text-align: justify;
+    text-indent: 20px;
 
 }
 
@@ -73,11 +74,29 @@ img{
     width: 100%;
 }
 
+.fotos{
+    width: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.fotos img{
+    float: left;
+    width: 250px;
+    margin: 20px;
+    border-radius: 5px;
+    transition: all 1s;
+}
+
+.fotos img:hover{
+    transform: scale(1.1);
+
+}
 
 /*Contatos*/
 .contatos{
     width: auto;
-    background-color: gray;
+    background-color: white;
     margin: 0;
     
     
@@ -105,7 +124,7 @@ img{
 .social{
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .face{
