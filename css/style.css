@@ -74,30 +74,31 @@ img{
 }
 
 
-/*Lateral*/
-.lateral{
-    margin: 10px;
-    width: 95%;
+/*Contatos*/
+.contatos{
+    width: auto;
     background-color: gray;
-    border-radius: 5px;
+    margin: 0;
+    
+    
 }
 
-.lateral h2{
+.contatos h2{
     width: 100%;
     text-align: center;
 
 }
 
-.lateral p{
+.contatos p{
     width: 100%;
     text-align: center;
 
 }
 
-.lateral iframe{
+.contatos iframe{
     width: 100%;
     padding: 2%;
-    margin: 2%;
+    
 
 }
 
