@@ -128,14 +128,18 @@ img{
 }
 
 .face{
-    width: 33%;
+    
     color: #4267B2;
 
 }
 
 .insta{
-    width: 33%;
+    
     color: #833ab4;
+}
+
+.youtube{
+    color: #FF0000;;
 }
 
 .zap{
